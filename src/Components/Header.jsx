@@ -5,7 +5,7 @@ import '../index.css';
 class Header extends Component {
     render() {
         return (
-        <div class="header" style={{display: 'flex', flexFlow: 'column nowrap', alignItems: 'center', textAlign: 'center'}}>
+        <div className="header" style={{display: 'flex', flexFlow: 'column nowrap', alignItems: 'center', textAlign: 'center'}}>
             <h2>Contacts!</h2>
             <div>
             <NavLink to="/" style={{ margin: '2em'}}>Home</NavLink>
