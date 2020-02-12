@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
 import Form from './Form';
-import App from '../App';
+import Home from './Home';
 
 import '../index.css';
 
@@ -10,7 +10,7 @@ class Switcheroo extends Component {
         return (
         <div style={{display: 'flex', flexFlow: 'column nowrap', alignItems: 'center', textAlign: 'center'}}>
             
-            <Route path="/home" component={App}/>
+            <Route exact path="/" component={Home}/>
             <Route path="/form" component={Form} />
 
             
